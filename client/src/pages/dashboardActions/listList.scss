@@ -1,0 +1,58 @@
+.listTable {
+    margin-top: 40px;
+    font-size: 14px;
+
+    table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: white;
+    }
+    th, td, tr {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #e6e6e6;
+        vertical-align: middle;
+    }
+    td.title-cell {
+        width: 25%;
+        text-align: left;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        .edit {
+            width: 60px;
+            height: auto;
+            text-align: center;
+            background: rgb(79, 184, 158);
+            color: white;
+            padding: 4px;
+            width: 80px;
+            border-radius: 15px;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background .2s ease-in-out;
+        }
+
+        .edit:hover {
+            background: rgb(72, 156, 135);
+        }
+        .bin {
+            cursor: pointer;
+        }
+    }
+}

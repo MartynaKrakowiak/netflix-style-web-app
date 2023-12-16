@@ -1,0 +1,90 @@
+h2 {
+    margin-left: 135px;
+    margin-top: 80px;
+    color: rgb(63, 63, 63);
+}
+
+.addNew {
+    margin-top: 20px;
+    margin-left: 135px;
+    top: 198px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 150px;
+    background: linear-gradient(to right, #5297c5, #46998e);
+    color: white;
+    border-radius: 5px;
+}
+
+.movieTable {
+    margin-top: 40px;
+    font-size: 14px;
+
+    table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: white;
+    }
+    th, td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #e6e6e6;
+        vertical-align: middle;
+    }
+    td.title-cell {
+        width: 25%;
+        text-align: left;
+    }
+    .title-text {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 2px;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .movieTable button + button {
+        margin-left: 5px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .edit {
+            width: 60px;
+            height: auto;
+            text-align: center;
+            background: rgb(79, 184, 158);
+            color: white;
+            padding: 4px;
+            width: 80px;
+            border-radius: 15px;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background .2s ease-in-out;
+        }
+        .edit:hover {
+            background: rgb(72, 156, 135);
+        }
+        .bin {
+            cursor: pointer;
+        }
+    }
+    .pagination {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 1150px;
+        font-weight: bold;
+        color: rgb(63, 63, 63);
+        margin-bottom: 60px;
+    }
+}

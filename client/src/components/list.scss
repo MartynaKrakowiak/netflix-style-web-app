@@ -1,0 +1,70 @@
+.list{
+    position: relative ;
+    width: 100%;
+    margin-top: 70px;
+    
+    .listTitle{
+        margin-left: 60px;
+        margin-bottom: 10px;
+        color: #e5e5e5;
+        font-size: 28px;
+        font-weight: 600;
+        z-index: 1;
+    }
+
+    .slides{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-left: 1680px;
+        margin-top: -20px;
+        .rectangle {
+            width: 30px;
+            height: 3px;
+            margin: 5px;
+            background-color: rgb(100, 100, 100);
+
+        }
+
+    }
+    .listWrapper{
+        position: relative;
+        z-index: 2;
+        .sliderArrow{
+            position: absolute;
+            cursor: pointer;
+            width: 60px;
+            height: 101%;
+            background-color: #141414;;
+            //color: white;
+            opacity: 0.6;
+            z-index: 99;
+            top: 0;
+            transition: color 0.3s ease, opacity 0.3s ease;
+
+            &.left{
+                left: 0;
+            }
+            &.right{
+                right: 0;
+            }
+        }
+
+
+        .sliderArrow:hover{
+            color: white;
+            opacity: 0.8;
+        }
+
+        .listItemWrapper{
+            margin-left: 60px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            width: max-content;
+            transform: translateX(0px);
+            transition: all 1s ease;
+        }
+    }
+}

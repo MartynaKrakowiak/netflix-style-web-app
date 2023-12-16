@@ -1,0 +1,80 @@
+.seriesTable{
+    margin-top: 40px;
+    font-size: 14px;
+    font-family: Helvetica;
+    table{
+        width: 80%;
+        margin: 0 auto; /* Set left and right margin to 'auto' */
+        border-collapse: collapse;
+        background-color: white;
+    }
+    th, td{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #e6e6e6;
+        vertical-align: middle; /* Vertically center content */
+    }
+    td.title-cell {
+        width: 30%; /* Adjust the percentage as needed */
+        text-align: left;
+    }
+    .title-text {
+        display: inline-block; /* Display text as inline-block */
+        vertical-align: middle; /* Vertically center text */
+        margin-left: 2px;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+        display: inline-block; /* Display image as inline-block */
+        vertical-align: middle; /* Vertically center image */
+    }
+
+    .series Table button + button {
+        margin-left: 5px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    
+        .edit{
+            width:60px;
+            height: auto;
+            text-align: center;
+            background:  rgb(79, 184, 158);
+            color:white;
+            //font-weight: bold;
+            //border: 2px solid #7766af;
+            padding: 4px;
+            width: 80px;
+            border-radius: 15px;
+            //text-transform: uppercase;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background .2s ease-in-out;
+        }
+
+        .edit:hover{
+            background:  rgb(72, 156, 135);
+        }
+        .bin{
+            cursor: pointer;
+        }
+    }
+
+    .pagination{
+        display: flex;
+        flex-direction: row;
+        //position: absolute;
+        margin-top: 20px;
+        margin-left: 1150px;
+        font-weight: bold;
+        color:rgb(63, 63, 63);
+        margin-bottom: 60px;
+      }
+}

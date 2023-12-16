@@ -1,0 +1,33 @@
+.dashboard{
+    height: 100vh;
+    padding: 1;
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+    font-family: Helvetica;
+    overflow: scroll;
+    overflow-x: hidden;
+    .container {
+        border-radius: 8px;
+        font-family: Helvetica;
+        padding:10px;
+        background-color: white;
+        width: 70%;
+        height: auto;
+        margin-left: 450px;
+        margin-top: 20px;
+        overflow-x: hidden;
+        min-height: 86vh;
+        box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+   }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+   }
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+

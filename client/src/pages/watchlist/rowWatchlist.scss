@@ -1,0 +1,13 @@
+.rowWatchlist{
+    width: 100%;
+    margin-top: 250px;
+    .rowWrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+    .rowWrapper:not(:last-child) {
+        margin-bottom: 60px; /* Increase the vertical gap between rows except the last one */
+      }
+    }

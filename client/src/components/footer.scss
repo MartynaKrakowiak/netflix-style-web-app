@@ -1,0 +1,38 @@
+.footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-color: #141414;
+    align-items: center;
+    .socials{
+        width: 50%;
+        color: white;
+        margin-top: 20px;
+        .icons{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: flex-start;
+            cursor: pointer;
+       }
+   }
+    .links {
+        width: 50%;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px 40px;
+        span {
+            text-align: left;
+            color: grey;
+            font-size: 13px;
+            cursor: pointer;
+       }
+        span:hover{
+            text-decoration: underline;
+       }
+   }
+}

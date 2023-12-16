@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.watchlist {
+    background-color: #141414;
+    color: white;
+    font-family: 'Netflix Sans';
+    border: 0.01px solid transparent;
+
+    h1 {
+        position: absolute;
+        top: 70px;
+        left: 60px;
+        margin: 20px 0 0 0;
+    }
+
+    .listItemWrapper {
+        margin-left: 60px;
+        min-height: 90vh;
+        margin-bottom: 280px;
+    }
+
+    .modalWrapper {
+        scrollbar-color: gray black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow-y: scroll;
+        background-color: aquamarine;
+        z-index: 999999999999;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

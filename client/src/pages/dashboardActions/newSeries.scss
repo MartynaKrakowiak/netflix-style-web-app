@@ -1,0 +1,185 @@
+.newSeriesFormContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 230px;
+
+    .rightColumn {
+        .season {
+            input[type="text"] {
+                width: 74%;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid #d6d6d6;
+                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .nSeason {
+                display: inline-block;
+                height: auto;
+                text-align: center;
+                background: rgb(79, 184, 158);
+                color: white;
+                padding: 4px;
+                width: 138px;
+                border-radius: 18px;
+                cursor: pointer;
+                transition: background .2s ease-in-out;
+            }
+            .episodeDetails {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+                .episodeDescription {
+                    width: 280px;
+                }
+            }
+        }
+    }
+
+    .addSeasonButton {
+        background: linear-gradient(to right, #5297c5, #46998e);
+        color: #fff;
+        box-shadow: 3px 3px 30px #aaa;
+        padding: 4px;
+        width: 140px;
+        border-radius: 18px;
+        cursor: pointer;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .formGroup {
+        margin-bottom: 20px;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            .tag::before, .genre::before, .actor::before {
+                content: "•";
+                display: inline-block;
+                margin-right: 5px;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                .bin {
+                    margin-right: 5px;
+                    visibility: hidden;
+                    order: -1;
+                }
+            }
+            li:hover .bin {
+                visibility: visible;
+            }
+        }
+
+        .inputWithButton {
+            display: flex;
+            align-items: center;
+        }
+
+        .arrayActions {
+            width: 60px;
+            height: auto;
+            text-align: center;
+            background: rgb(79, 184, 158);
+            color: white;
+            padding: 4px;
+            width: 80px;
+            border-radius: 15px;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background .2s ease-in-out;
+        }
+        .arrayActions:hover {
+            background: rgb(72, 156, 135);
+        }
+
+        label {
+            font-family: Helvetica;
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #d6d6d6;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            border: none;
+            outline: none;
+        }
+
+        input[type=file] {
+            max-width: 280px;
+            color: #727272;
+            padding: 5px;
+            background: #fff;
+        }
+        input[type=file]::file-selector-button {
+            font-size: 11px;
+            text-transform: uppercase;
+            font-family: 'Netflix Sans';
+            margin-right: 20px;
+            border: none;
+            background: rgb(79, 184, 158);
+            padding: 10px 10px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+            color: #fff;
+            cursor: pointer;
+            transition: background .2s ease-in-out;
+        }
+        input[type=file]::file-selector-button:hover {
+            background: rgb(72, 156, 135);
+        }
+
+        textarea {
+            outline: none;
+            border: none;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            border: 1px solid #d6d6d6;
+            border-radius: 10px;
+            font-size: 13px;
+            padding: 10px;
+        }
+
+        .imgFeatured {
+            width: 300px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .thumbnail, .episodeThumbnail {
+            width: 300px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .title {
+            width: 300px;
+            height: 80px;
+            object-fit: scale-down;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    }
+    span {
+        font-size: 14px;
+    }
+}

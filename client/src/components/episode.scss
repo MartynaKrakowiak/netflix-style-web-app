@@ -1,0 +1,49 @@
+.episode{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border-top: 1px solid #424242;
+    padding-top: 10px;
+    .image{
+        width: 150px;
+        img{
+            margin-top: 20px;
+            margin-left: 30px;
+            width: 150px;
+            height: 75px;
+            border-radius: 5px;
+            flex-shrink: 0;
+            object-fit: cover;
+       }
+        .progressContainer{
+            margin-left: 30px;
+            margin-top: -2px;
+       }
+   }
+    .epNumber{
+        font-size: 28px;
+        margin-top: 40px;
+        margin-left: 20px;
+   }
+    .details{
+        margin-top: 20px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        h1{
+            font-size: 16px;
+            font-weight: bold;
+       }
+        .description{
+            line-height: 120%;
+            word-break: break-word;
+            font-size: 14px;
+            color: #cccccc;
+       }
+   }
+    .time{
+        margin-top: 20px;
+        margin-right: 90px;
+   }
+}

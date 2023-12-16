@@ -1,0 +1,16 @@
+.progressContainer{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 2px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+    .progressBar {
+        height: 100%;
+        background-color: red;
+        transition: width 0.3s ease-in-out;
+      }
+}
+
