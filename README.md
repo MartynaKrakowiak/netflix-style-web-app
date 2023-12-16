@@ -33,16 +33,29 @@ The web application is a clone of Netflix, one of the most popular video-on-dema
 
 # Screenshots
 **Filtering thematic lists by genre**:
+
 ![Screenshot 1](screenshots/featured.jpg)
+
 **Browsing a short video snippet**:
+
 ![Screenshot 2](screenshots/media%20lists%20+%20movie%20snippet.png)
+
 **Detailed information about the content**:
+
 ![Screenshot 3](screenshots/series%20modal%231.png)
+
 **Browsing an expandable list of seasons and episodes of TV series**:
+
 ![Screenshot 4](screenshots/series%20modal%232.png)
+
 **Searching for content**
+
 ![Screenshot 5](screenshots/search.png)
+
 **Watchlist**
+
 ![Screenshot 6](screenshots/watchlist.png)
+
 **Menu**
+
 ![Screenshot 7](screenshots/menu.png)
