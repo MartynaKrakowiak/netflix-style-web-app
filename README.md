@@ -61,7 +61,4 @@ The web application is a clone of Netflix, one of the most popular video-on-dema
 ![Screenshot 7](screenshots/menu.png)
 
 ﻿# Screen recording
-<video width="640" height="360" controls>
-  <source src="https://firebasestorage.googleapis.com/v0/b/netflix-15785.appspot.com/o/Timeline%201.mov?alt=media&token=7a191a36-3222-41cb-8129-b1c76d4397c6" type="video/mov">
-  Your browser does not support the video tag.
-</video>
+[Click to view the video](https://firebasestorage.googleapis.com/v0/b/netflix-15785.appspot.com/o/Timeline%201.mov?alt=media&token=7a191a36-3222-41cb-8129-b1c76d4397c6)
